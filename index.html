@@ -5,16 +5,46 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    #shape{
+      background-color: red;
+      width: 150;
+      height: 150;
+      border-radius: 50%;
+    }
+    #flag{
+      display: flex;
+      box-shadow: 2px 2px 10px 5px #7fecad;
+      width: 180px;
+    }
+    .green{
+      height: 100px;
+      width: 60px;
+      background-color: green;
+      border-top: 5px black;
+    }
+    #white{
+      height: 100px;
+      width: 60;
+      background-color: white;
+    }
+  </style>
 </head>
 
 <body>
   Hello world
+  <div>
+    <h1>the tag div</h1>
+    <p>div stand for division</p>
+  </div>
+  <div id="shape"></div>
+  <div id="flag">
+    <div class="green"></div>
+    <div id="white"></div>
+    <div class="green"></div>
+  </div>
+  
   <script src="script.js"></script>
-
- <!--
-This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
--->
 <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
 </body>
 
